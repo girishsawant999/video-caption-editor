@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --bg-checkered-light-lines: #f0f0f0;
+  --bg-checkered-light: #f8f8f8;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-checkered-light);
+  background-image: linear-gradient(
+      to right,
+      var(--bg-checkered-light-lines) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      to bottom,
+      var(--bg-checkered-light-lines) 1px,
+      transparent 1px
+    );
+  background-size: 20px 20px;
+  min-height: 100vh;
+}
