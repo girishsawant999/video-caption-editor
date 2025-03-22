@@ -286,7 +286,7 @@ export default function VideoCaptionEditor() {
               .map((caption) => (
                 <div
                   key={caption.id}
-                  className="border border-gray-300 bg-zinc-100 rounded-md p-3 space-y-3"
+                  className="border border-[#7A73D1]/80 bg-[#7A73D1]/10 rounded-md p-3 space-y-3"
                 >
                   <div className="flex gap-2">
                     <div className="flex-1">
