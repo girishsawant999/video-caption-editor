@@ -261,13 +261,13 @@ export default function VideoCaptionEditor() {
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-semibold">Captions</h2>
           <div className="flex gap-2 items-center">
-            <Button type="primary" onClick={addCaption} size="small">
+            <Button type="primary" onClick={addCaption} size="middle">
               <Plus className="h-4 w-4 mr-1" /> Add Caption
             </Button>
             <Button
               onClick={downloadWebVTT}
               variant="outlined"
-              size="small"
+              size="middle"
               disabled={captions.length === 0}
             >
               <Download className="h-4 w-4 mr-1" /> Download VTT
